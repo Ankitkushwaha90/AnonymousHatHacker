@@ -30,9 +30,9 @@ const App = () =>{
         {/* <Nav_header/> */}
         <Switch>
           {/* <Route exact path="/home" component={Profile} /> */}
-          <Route exact path="/" component={Home} />
-          <Route exact path="/html/document" component={HTML} />
-          <Route path="/css/introduction" component={CSS} />
+          <Route exact path="/AnonymousHatHacker/" component={Home} />
+          <Route exact path="/AnonymousHatHacker/html/document" component={HTML} />
+          <Route path="/AnonymousHatHacker/css/introduction" component={CSS} />
           <Route exact path="/javascript/introduction" component={JAVASCRIPT} />
           <Route path="/php/introduction" component={PHP} />
           <Route path="/c/introduction" component={C} />
